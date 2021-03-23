@@ -8,26 +8,77 @@
 
 /* Begin PBXBuildFile section */
 		060782B2250CE27700A87020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060782B1250CE27700A87020 /* AppDelegate.swift */; };
-		060782B4250CE27700A87020 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060782B3250CE27700A87020 /* SceneDelegate.swift */; };
-		060782B6250CE27700A87020 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060782B5250CE27700A87020 /* ViewController.swift */; };
+		060782B6250CE27700A87020 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060782B5250CE27700A87020 /* FeedViewController.swift */; };
 		060782B9250CE27700A87020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 060782B7250CE27700A87020 /* Main.storyboard */; };
 		060782BB250CE27A00A87020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 060782BA250CE27A00A87020 /* Assets.xcassets */; };
 		060782BE250CE27A00A87020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 060782BC250CE27A00A87020 /* LaunchScreen.storyboard */; };
+		060782C6250CEB0A00A87020 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060782C5250CEB0A00A87020 /* InfoViewController.swift */; };
+		060782C8250CEE5D00A87020 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060782C7250CEE5D00A87020 /* PostViewController.swift */; };
+		060782CA250CEE7200A87020 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060782C9250CEE7200A87020 /* Post.swift */; };
+		87142DA22609DB0A00CB696B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060782B5250CE27700A87020 /* FeedViewController.swift */; };
+		87142DA32609DB0A00CB696B /* ProfileTableHederView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B3F84725C180EE003A03E9 /* ProfileTableHederView.swift */; };
+		87142DA42609DB0A00CB696B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060782B1250CE27700A87020 /* AppDelegate.swift */; };
+		87142DA52609DB0A00CB696B /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BBE20225C03635000ED8CC /* LogInViewController.swift */; };
+		87142DA62609DB0A00CB696B /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0E3A825CAD1FE00A275C0 /* Photos.swift */; };
+		87142DA72609DB0A00CB696B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B3F84B25C1955C003A03E9 /* ProfileView.swift */; };
+		87142DA82609DB0A00CB696B /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060782C5250CEB0A00A87020 /* InfoViewController.swift */; };
+		87142DA92609DB0A00CB696B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060782C9250CEE7200A87020 /* Post.swift */; };
+		87142DAA2609DB0A00CB696B /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744562D25B32F1F002565D0 /* ProfileHeaderView.swift */; };
+		87142DAB2609DB0A00CB696B /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0E39F25CAAB7B00A275C0 /* PhotosTableViewCell.swift */; };
+		87142DAC2609DB0A00CB696B /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874FA77525C176D200EF39F0 /* PostTableViewCell.swift */; };
+		87142DAD2609DB0A00CB696B /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0E3A525CACF4E00A275C0 /* PhotosCollectionViewCell.swift */; };
+		87142DAE2609DB0A00CB696B /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0E3A225CACEB700A275C0 /* PhotosViewController.swift */; };
+		87142DAF2609DB0A00CB696B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744563125B32F37002565D0 /* ProfileViewController.swift */; };
+		87142DB02609DB0A00CB696B /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060782C7250CEE5D00A87020 /* PostViewController.swift */; };
+		87142DB32609DB0A00CB696B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 060782BC250CE27A00A87020 /* LaunchScreen.storyboard */; };
+		87142DB42609DB0A00CB696B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 060782BA250CE27A00A87020 /* Assets.xcassets */; };
+		87142DB52609DB0A00CB696B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 060782B7250CE27700A87020 /* Main.storyboard */; };
+		8744562E25B32F1F002565D0 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744562D25B32F1F002565D0 /* ProfileHeaderView.swift */; };
+		8744563225B32F37002565D0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744563125B32F37002565D0 /* ProfileViewController.swift */; };
+		874FA77625C176D200EF39F0 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874FA77525C176D200EF39F0 /* PostTableViewCell.swift */; };
+		87B3F84825C180EE003A03E9 /* ProfileTableHederView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B3F84725C180EE003A03E9 /* ProfileTableHederView.swift */; };
+		87B3F84C25C1955C003A03E9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B3F84B25C1955C003A03E9 /* ProfileView.swift */; };
+		87BBE20725C04F33000ED8CC /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BBE20225C03635000ED8CC /* LogInViewController.swift */; };
+		87F0E3A025CAAB7B00A275C0 /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0E39F25CAAB7B00A275C0 /* PhotosTableViewCell.swift */; };
+		87F0E3A325CACEB700A275C0 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0E3A225CACEB700A275C0 /* PhotosViewController.swift */; };
+		87F0E3A625CACF4E00A275C0 /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0E3A525CACF4E00A275C0 /* PhotosCollectionViewCell.swift */; };
+		87F0E3A925CAD1FE00A275C0 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0E3A825CAD1FE00A275C0 /* Photos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		060782AE250CE27700A87020 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		060782B1250CE27700A87020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		060782B3250CE27700A87020 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		060782B5250CE27700A87020 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		060782B5250CE27700A87020 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		060782B8250CE27700A87020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		060782BA250CE27A00A87020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		060782BD250CE27A00A87020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		060782BF250CE27A00A87020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		060782C5250CEB0A00A87020 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		060782C7250CEE5D00A87020 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		060782C9250CEE7200A87020 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		87142DB92609DB0A00CB696B /* Navigation copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87142DBA2609DB0A00CB696B /* Navigation copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Navigation copy-Info.plist"; path = "/Users/mihail/Downloads/Navigation/Navigation copy-Info.plist"; sourceTree = "<absolute>"; };
+		8744562D25B32F1F002565D0 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		8744563125B32F37002565D0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		874FA77525C176D200EF39F0 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		87B3F84725C180EE003A03E9 /* ProfileTableHederView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableHederView.swift; sourceTree = "<group>"; };
+		87B3F84B25C1955C003A03E9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		87BBE20225C03635000ED8CC /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		87F0E39F25CAAB7B00A275C0 /* PhotosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosTableViewCell.swift; sourceTree = "<group>"; };
+		87F0E3A225CACEB700A275C0 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		87F0E3A525CACF4E00A275C0 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		87F0E3A825CAD1FE00A275C0 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		060782AB250CE27700A87020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87142DB12609DB0A00CB696B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +93,7 @@
 			children = (
 				060782B0250CE27700A87020 /* Navigation */,
 				060782AF250CE27700A87020 /* Products */,
+				87142DBA2609DB0A00CB696B /* Navigation copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				060782AE250CE27700A87020 /* Navigation.app */,
+				87142DB92609DB0A00CB696B /* Navigation copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +109,35 @@
 		060782B0250CE27700A87020 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				8744562C25B32EEB002565D0 /* Profile */,
 				060782B1250CE27700A87020 /* AppDelegate.swift */,
-				060782B3250CE27700A87020 /* SceneDelegate.swift */,
-				060782B5250CE27700A87020 /* ViewController.swift */,
+				060782B5250CE27700A87020 /* FeedViewController.swift */,
 				060782B7250CE27700A87020 /* Main.storyboard */,
 				060782BA250CE27A00A87020 /* Assets.xcassets */,
 				060782BC250CE27A00A87020 /* LaunchScreen.storyboard */,
 				060782BF250CE27A00A87020 /* Info.plist */,
+				060782C5250CEB0A00A87020 /* InfoViewController.swift */,
+				060782C7250CEE5D00A87020 /* PostViewController.swift */,
+				060782C9250CEE7200A87020 /* Post.swift */,
+				87F0E3A825CAD1FE00A275C0 /* Photos.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		8744562C25B32EEB002565D0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8744562D25B32F1F002565D0 /* ProfileHeaderView.swift */,
+				8744563125B32F37002565D0 /* ProfileViewController.swift */,
+				87BBE20225C03635000ED8CC /* LogInViewController.swift */,
+				874FA77525C176D200EF39F0 /* PostTableViewCell.swift */,
+				87B3F84725C180EE003A03E9 /* ProfileTableHederView.swift */,
+				87B3F84B25C1955C003A03E9 /* ProfileView.swift */,
+				87F0E39F25CAAB7B00A275C0 /* PhotosTableViewCell.swift */,
+				87F0E3A225CACEB700A275C0 /* PhotosViewController.swift */,
+				87F0E3A525CACF4E00A275C0 /* PhotosCollectionViewCell.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +158,23 @@
 			name = Navigation;
 			productName = Navigation;
 			productReference = 060782AE250CE27700A87020 /* Navigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87142DA02609DB0A00CB696B /* Navigation copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87142DB62609DB0A00CB696B /* Build configuration list for PBXNativeTarget "Navigation copy" */;
+			buildPhases = (
+				87142DA12609DB0A00CB696B /* Sources */,
+				87142DB12609DB0A00CB696B /* Frameworks */,
+				87142DB22609DB0A00CB696B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Navigation copy";
+			productName = Navigation;
+			productReference = 87142DB92609DB0A00CB696B /* Navigation copy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,6 +206,7 @@
 			projectRoot = "";
 			targets = (
 				060782AD250CE27700A87020 /* Navigation */,
+				87142DA02609DB0A00CB696B /* Navigation copy */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +222,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		87142DB22609DB0A00CB696B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87142DB32609DB0A00CB696B /* LaunchScreen.storyboard in Resources */,
+				87142DB42609DB0A00CB696B /* Assets.xcassets in Resources */,
+				87142DB52609DB0A00CB696B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,9 +239,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				060782B6250CE27700A87020 /* ViewController.swift in Sources */,
+				060782B6250CE27700A87020 /* FeedViewController.swift in Sources */,
+				87B3F84825C180EE003A03E9 /* ProfileTableHederView.swift in Sources */,
 				060782B2250CE27700A87020 /* AppDelegate.swift in Sources */,
-				060782B4250CE27700A87020 /* SceneDelegate.swift in Sources */,
+				87BBE20725C04F33000ED8CC /* LogInViewController.swift in Sources */,
+				87F0E3A925CAD1FE00A275C0 /* Photos.swift in Sources */,
+				87B3F84C25C1955C003A03E9 /* ProfileView.swift in Sources */,
+				060782C6250CEB0A00A87020 /* InfoViewController.swift in Sources */,
+				060782CA250CEE7200A87020 /* Post.swift in Sources */,
+				8744562E25B32F1F002565D0 /* ProfileHeaderView.swift in Sources */,
+				87F0E3A025CAAB7B00A275C0 /* PhotosTableViewCell.swift in Sources */,
+				874FA77625C176D200EF39F0 /* PostTableViewCell.swift in Sources */,
+				87F0E3A625CACF4E00A275C0 /* PhotosCollectionViewCell.swift in Sources */,
+				87F0E3A325CACEB700A275C0 /* PhotosViewController.swift in Sources */,
+				8744563225B32F37002565D0 /* ProfileViewController.swift in Sources */,
+				060782C8250CEE5D00A87020 /* PostViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87142DA12609DB0A00CB696B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87142DA22609DB0A00CB696B /* FeedViewController.swift in Sources */,
+				87142DA32609DB0A00CB696B /* ProfileTableHederView.swift in Sources */,
+				87142DA42609DB0A00CB696B /* AppDelegate.swift in Sources */,
+				87142DA52609DB0A00CB696B /* LogInViewController.swift in Sources */,
+				87142DA62609DB0A00CB696B /* Photos.swift in Sources */,
+				87142DA72609DB0A00CB696B /* ProfileView.swift in Sources */,
+				87142DA82609DB0A00CB696B /* InfoViewController.swift in Sources */,
+				87142DA92609DB0A00CB696B /* Post.swift in Sources */,
+				87142DAA2609DB0A00CB696B /* ProfileHeaderView.swift in Sources */,
+				87142DAB2609DB0A00CB696B /* PhotosTableViewCell.swift in Sources */,
+				87142DAC2609DB0A00CB696B /* PostTableViewCell.swift in Sources */,
+				87142DAD2609DB0A00CB696B /* PhotosCollectionViewCell.swift in Sources */,
+				87142DAE2609DB0A00CB696B /* PhotosViewController.swift in Sources */,
+				87142DAF2609DB0A00CB696B /* ProfileViewController.swift in Sources */,
+				87142DB02609DB0A00CB696B /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,12 +351,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = COPY;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -270,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -316,6 +452,42 @@
 			};
 			name = Release;
 		};
+		87142DB72609DB0A00CB696B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYXT7H6K4K;
+				INFOPLIST_FILE = "Navigation copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.artemnovichkov.NavigationCopy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87142DB82609DB0A00CB696B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYXT7H6K4K;
+				INFOPLIST_FILE = "Navigation copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.artemnovichkov.NavigationCopy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -333,6 +505,15 @@
 			buildConfigurations = (
 				060782C3250CE27A00A87020 /* Debug */,
 				060782C4250CE27A00A87020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87142DB62609DB0A00CB696B /* Build configuration list for PBXNativeTarget "Navigation copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87142DB72609DB0A00CB696B /* Debug */,
+				87142DB82609DB0A00CB696B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
